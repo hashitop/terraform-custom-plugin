@@ -79,6 +79,11 @@
       "destination": "/tmp/main.tf"
     },
     {
+      "type": "file",
+      "source": "test.sh",
+      "destination": "/tmp/test.sh"
+    },
+    {
       "execute_command": "echo 'vagrant' | {{.Vars}} sudo -E -S bash '{{.Path}}'",
       "script": "scripts/provision.sh",
       "type": "shell"

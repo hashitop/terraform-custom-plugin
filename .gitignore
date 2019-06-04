@@ -1,3 +1,6 @@
 output-*
 *.box
 packer*
+.kitchen
+Gemfile.lock
+.terraform
